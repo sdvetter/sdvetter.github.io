@@ -1,7 +1,26 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World!</h1>
-<p>More to come soon...</p>
+    <style>
+        button {
+            padding: 0;
+            border: none;
+            background: none;
+            cursor:pointer;
+        }
+    </style>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <h1>Give me job!</h1>
+        <button style="font-size:24px" onclick="redirect()"> <i class="fa fa-linkedin-square"></i></button>
+
+        <script>
+            function redirect() {
+                location.replace("https://www.linkedin.com/in/simon-dreyer-vetter/")
+            }
+        </script>
 </body>
 </html>
